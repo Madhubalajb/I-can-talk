@@ -1,15 +1,27 @@
 <html>
     <head>
-        <title>I can talk.</title>
+        <title>I can talk</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">  
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="script.js" defer></script>
     </head>
-    <body>
-        <textarea id="text"></textarea>
-        <label for="speed">Speed</label>
-        <input type="number" id="speed" min=".5" max="3" step=".5" value="1">
-        <button id="play-button">Play</button>
-        <button id="pause-button">Pause</button>
-        <button id="stop-button">Stop</button>
+    <body id="body">
+        <div class="container">
+            <center>
+                <div class="row">
+                    <textarea class="form-control" id="text">Hey! Well guess what, I can talk</textarea>
+                </div>
+                <div class="row second">
+                    <label for="speed">Speed</label>
+                    <input class="form-control" type="number" id="speed" min=".5" max="3" step=".5" value="1">
+                    <i class="material-icons" id="play-button" title="play">play_circle_filled</i>
+                    <i class="material-icons" id="pause-button" title="pause">pause_circle_filled</i>
+                    <i class="material-icons" id="stop-button" title="stop">stop</i>
+                </div>
+
+            </center>
+        </div>
     </body>
 </html>
