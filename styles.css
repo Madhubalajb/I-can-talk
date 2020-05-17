@@ -54,3 +54,33 @@
     -moz-osx-font-smoothing: grayscale;
     font-feature-settings: 'liga';
   }
+
+@media screen and (max-width: 426px) { 
+    #body {
+        font-size: 4rem;
+    }
+    #text {
+        font-size: 4rem;
+    }
+    .container {
+        padding: 450px 0px;
+    }
+    .container .second {
+        display: block;
+    }
+    .container .second .form-control { 
+        font-size: 3rem;
+    }
+    .container .second .speed {
+        margin: 50px;
+    }
+    .container .material-icons {
+        font-size: 8rem;
+    }
+    .fab {
+        font-size: 5rem;
+        position: absolute;
+        bottom: 3%;
+        margin: 0px;
+    }
+}
