@@ -30,13 +30,15 @@
     padding: 10px;
     margin: 5px 2px;
     border-radius: 50%;
-    display: inline;
+    margin: 25px;
+    float: right;
+    color: #ffeb3b;
 }
 .container .material-icons {
     margin: 10px;
     cursor: pointer;
     font-family: 'Material Icons';
-    color: yellow;
+    color: #2196F3;
     font-weight: normal;
     font-style: normal;
     font-size: 50px;  
