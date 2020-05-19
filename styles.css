@@ -23,15 +23,23 @@
 .container .second .speed {
     margin: 15px;
 }
+.footer {
+    position: absolute;
+    bottom: 2%;
+    left: 40vw;
+    font-size: 17px;
+}
+body a {
+    color: #ffeb3b;
+}
+body a:hover {
+    text-decoration: none;
+}
 .fab {
-    font-size: 30px;
-    text-align: center;
+    font-size: 17px;
     text-decoration: none;
     padding: 10px;
-    margin: 5px 2px;
     border-radius: 50%;
-    margin: 25px;
-    float: right;
     color: #ffeb3b;
 }
 .container .material-icons {
